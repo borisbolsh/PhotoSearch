@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450A3A4F271F4F3600EE1651 /* APIresronse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A3A4E271F4F3600EE1651 /* APIresronse.swift */; };
+		450A3A51271F55F800EE1651 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A3A50271F55F800EE1651 /* ImageCollectionViewCell.swift */; };
 		45B9FD03271DA31F006AF788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9FD02271DA31F006AF788 /* AppDelegate.swift */; };
 		45B9FD05271DA31F006AF788 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9FD04271DA31F006AF788 /* SceneDelegate.swift */; };
 		45B9FD07271DA31F006AF788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9FD06271DA31F006AF788 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450A3A4E271F4F3600EE1651 /* APIresronse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIresronse.swift; sourceTree = "<group>"; };
+		450A3A50271F55F800EE1651 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		45B9FCFF271DA31F006AF788 /* PhotoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B9FD02271DA31F006AF788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45B9FD04271DA31F006AF788 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +60,11 @@
 		45B9FD01271DA31F006AF788 /* PhotoSearch */ = {
 			isa = PBXGroup;
 			children = (
+				450A3A50271F55F800EE1651 /* ImageCollectionViewCell.swift */,
 				45B9FD02271DA31F006AF788 /* AppDelegate.swift */,
 				45B9FD04271DA31F006AF788 /* SceneDelegate.swift */,
 				45B9FD06271DA31F006AF788 /* ViewController.swift */,
+				450A3A4E271F4F3600EE1651 /* APIresronse.swift */,
 				45B9FD08271DA31F006AF788 /* Main.storyboard */,
 				45B9FD0B271DA320006AF788 /* Assets.xcassets */,
 				45B9FD0D271DA320006AF788 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B9FD07271DA31F006AF788 /* ViewController.swift in Sources */,
+				450A3A51271F55F800EE1651 /* ImageCollectionViewCell.swift in Sources */,
 				45B9FD03271DA31F006AF788 /* AppDelegate.swift in Sources */,
 				45B9FD05271DA31F006AF788 /* SceneDelegate.swift in Sources */,
+				450A3A4F271F4F3600EE1651 /* APIresronse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
